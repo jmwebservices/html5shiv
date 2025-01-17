@@ -1,0 +1,23 @@
+/**
+ * This file is not part of the official html5shiv.js shim!
+ * 
+ * It has been added for non-IE browsers lacking HTML5 support
+ * since the shim is conditionally loaded for IE browsers and we need to
+ * style block level HTML5 elements.
+ */
+
+article   ,
+aside     ,
+dialog    ,
+figcaption,
+figure    ,
+footer    ,
+header    ,
+hgroup    ,
+main      ,
+menu      ,
+nav       ,
+section
+{
+	display: block;
+}
